@@ -6,7 +6,7 @@ import random
 import sys
 
 def make_array(n: int) -> list:
-    return [random.randint(0, 100) for i in range(n)]
+    return [random.randint(0, 1000) for i in range(n)]
 
 def swap_items(arr, i, j):
     temp = arr[i]
