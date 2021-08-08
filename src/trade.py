@@ -1,5 +1,6 @@
 """ 
 Recursive, and using divide and conquer
+O(n log n)
 """
 from selection_sort import make_array
 
